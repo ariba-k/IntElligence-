@@ -1,1 +1,1 @@
-# IntElligence-
+# IntElligence
