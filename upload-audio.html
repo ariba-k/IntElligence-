@@ -1,0 +1,31 @@
+{% block title %}Audio Analysis{% endblock %}
+
+{% block main %}
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+      <h1>Upload Audio</h1>
+      <hr>
+
+      <form action="/" method="POST" enctype="multipart/form-data">
+
+        <div class="form-group">
+          <label>Audio Files (wav, m4a)</label>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" name="audio" id="audio">
+            <label class="custom-file-label" for="audio">Select audio...</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload</button>
+      </form>
+
+        <form action="/process-audio-plot" method="GET" ></form>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
