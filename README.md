@@ -1,8 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Audio Analysis
 
-In the project directory, you can run:
+To run the audio analysis run the file int-elligence/AudioAnalysis/processing.py
+
+Thre processing.py triggers the other python scripts in the same directory to run and gathers prosadic metrics detected in given audio file (m4a) 
 
 ### `npm start`
 
