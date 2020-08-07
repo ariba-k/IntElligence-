@@ -1,0 +1,23 @@
+.about-title {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 50px 10px 10px 10px;
+}
+
+.about-content {
+  color: white;
+  font-size: 20px;
+  width: 600px;
+  margin: auto;
+}
+
+.about-section {
+  text-align:left;
+}
+
+.about-stitle {
+  color: rgba(200, 200, 200);
+  font-size: 18px;
+  margin: 0px auto 50px auto;
+}

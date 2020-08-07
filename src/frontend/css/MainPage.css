@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+
+.introclass {
+  background: -webkit-linear-gradient(45deg, #002562, #300040);
+  margin: 30px 200px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.projclass {
+  margin: 30px 200px;
+}
+
+.pagebackground {
+  background-color: black;
+}
+
+#title {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 7em;
+  color: white;
+  font-family: "Roboto";
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sTitle {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 10px;
+  border-top: 0px;
+  margin-top:0px;
+  font-family: "Roboto";
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sf {
+  font-family: "Satisfy";
+  font-size: 120px;
+}
+
+#bg {
+  margin-top: 0px;
+  height: 50rem;
+  vertical-align: middle;
+  background-image: url('background.png');
+  background-size: cover;
+}
+
+.test-bg {
+  background-color: black;
+}

@@ -1,0 +1,13 @@
+{
+  "audioUrl": "https://empath-face-analyzer-2.herokuapp.com",
+  "imageUrl": "https://empath-face-analyzer-2.herokuapp.com",
+  "testUrl": "https://postman-echo.com/post",
+  "pollLimit": 20,
+  "audioEPs": {
+    "loadEP": "",
+    "getEP": ""
+  },
+  "imageEPs": {
+    "analyzeEP": "/analyzeImage"
+  }
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+
+
+.te{
+  text-align: center;
+  margin: 0px 15px;
+  color: white;
+  font-family: "Roboto";
+    background: -webkit-linear-gradient(45deg, #001535, #000216);
+  border-radius: 5px;
+  width: calc(80vw / 3 - 30px);
+  height: calc(80vw / 3 - 30px);
+  cursor:pointer;
+  vertical-align: middle;
+}
+
+.te1{
+  text-align: center;
+  margin: 0px 15px;
+  color: white;
+  font-family: "Roboto";
+    background: -webkit-linear-gradient(45deg, #000510, #000006);
+  border-radius: 5px;
+  width: calc(80vw / 3 - 30px);
+  height: calc(80vw / 3 - 30px);
+  cursor:pointer;
+  vertical-align: middle;
+}
+
+@media (max-width: 1000px) {
+   .cardTag {
+     visibility: hidden;
+   }
+}
+
+@media (min-width: 1000px) {
+   .cardTag {
+     visibility: visible;
+   }
+}
+
+@media (max-width: 1500px) {
+   .cardTag {
+     font-size: 1.5rem;
+   }
+}
+
+@media (min-width: 1500px) {
+   .cardTag {
+     font-size: 2.5rem;
+   }
+}
+
+
+.te:hover {
+    background-color: rgba(20, 100, 200, 0.3);
+}
+
+.te:active {
+    background-color: rgba(10, 80, 160, 0.3);
+}
+
+
+.imgDisplay {
+  margin: 10% auto;
+  width: 50%;
+}
+
+.testButtonDisplay {
+  background-color: rgba(255, 0, 0, 0);
+  border-width: thin;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}

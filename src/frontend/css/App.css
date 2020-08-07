@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.intro {
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(to right, black rgb(0, 80, 180));
+}
+
+.introclass {
+  background: -webkit-linear-gradient(45deg, #001535, #000216);
+  margin: 30px 10vw;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.projclass {
+  margin: 30px calc(10vw - 15px);
+}
+
+#title {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 7em;
+  color: white;
+  font-family: "Roboto";
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sTitle {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 10px;
+  border-top: 0px;
+  margin-top:0px;
+  font-family: "Roboto";
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sf {
+  font-family: "Satisfy";
+  font-size: 120px;
+}
+
+#bg {
+  margin-top: 0px;
+  height: 50rem;
+  vertical-align: middle;
+  background-image: url('../imgs/background.png');
+  background-size: cover;
+}
+
+.test-bg {
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-setting {
+}
+
+/* ==============================================================================================
+SED Innovations
+https://sed.am
+https://mkrtchyan.ga
+================================================================================================= */
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+.stars, .twinkling {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url('../imgs/stars.png') repeat top center;
+  z-index:-15;
+}
+
+.twinkling{
+  background:transparent url('../imgs/twinkling.png') repeat top center;
+  z-index:-14;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-pagelink {
+  display: flex;
+  flex-direction:row;
+}
+
+.nav-testbutton {
+  background-color: transparent;
+  border-color: orange;
+  border-width: 2px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.content-wrapper {
+  min-height: 100vh;
+  margin-bottom: -150px;
+}
+
+.footer,
+.push {
+  height: 150px;
+}
+
+.footer {
+  background-color: #001534;
+  color: white;
+}
+
+.footer-content {
+    padding: 0px 10vw;
+    padding-top: 20px;
+}
+
+a {
+    color: #fff;
+}

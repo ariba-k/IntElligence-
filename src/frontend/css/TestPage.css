@@ -1,0 +1,229 @@
+@media (min-width: 1000px) {
+   .main-title-m{
+     display:none;
+   }
+}
+
+@media (max-width: 1000px) {
+   .main-title-d{
+     display:none;
+   }
+   .title-m {
+     font-size: 25px;
+     text-align: center;
+     padding-top: 7em;
+     color: white;
+     font-family: "Roboto";
+     white-space: nowrap;
+     overflow: hidden;
+   }
+
+   .sPhrase-m {
+     font-size: 20px;
+     color: white;
+     text-align: center;
+     padding-top: 0px;
+     padding-left: 10px;
+     border-top: 0px;
+     margin-top:10rem;
+     font-family: "Roboto";
+     overflow: hidden;
+   }
+
+   .sf-m {
+     text-align: center;
+     font-family: "Satisfy";
+     font-size: 80px;
+     color: white;
+   }
+}
+
+.canvas-content {
+    padding: 0px 10vw;
+}
+
+.resultDisplay {
+  color: white;
+}
+
+.button-m {
+  text-align: center;
+}
+
+.TestPage {
+  height:1000px;
+  background-color: black;
+  text-align: center;
+}
+
+.TResultPage {
+  background-color: black;
+  text-align: center;
+}
+
+.instruction {
+  color: white;
+  font-size: 18px;
+  width: 800px;
+  margin: 80px auto;
+  text-align: left;
+}
+
+.instruction-title {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  width: 800px;
+  margin: 50px auto;
+}
+
+
+.instruction-block {
+  text-align: center;
+  margin: 50px auto auto auto;
+  width: 100%;
+}
+
+.option {
+  margin-top: 200px;
+}
+
+.disablePage {
+  height:300px;
+  width:100%;
+  clear:both;
+}
+
+.disclaimer {
+  height:90%;
+  width:100%;
+  text-align: center;
+}
+
+.Form {
+  text-align: center;
+}
+
+.disclaimer-content {
+  margin: 5% 20%;
+  color: rgba(240, 240, 240, 1);
+  text-align: left;
+}
+
+.disclaimer-title {
+  color: white;
+}
+
+.form-title {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.form-content {
+  color: white;
+  margin: auto 10px;
+}
+
+.test-btn {
+  width: 100px;
+}
+
+.test-button {
+  background-color: transparent;
+  border-color: #2d5ea8;
+  border-width: 3px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.test-button-pressed {
+  background-color: #2d5ea8;
+  border-color: #2d5ea8;
+  border-width: 3px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.imginput {
+  background-color: #FFFFFF;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.whoarewe {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.fade-out {
+  animation: fadeOut ease 0.5s;
+  -webkit-animation: fadeOut ease 0.5s;
+  -moz-animation: fadeOut ease 0.5s;
+  -o-animation: fadeOut ease 0.5s;
+  -ms-animation: fadeOut ease 0.5s;
+  animation-delay:0.5s;
+  -webkit-animation-delay:0.5s;
+}
+
+.canvas {
+  display:none;
+}
+
+.video-display {
+  width:640px;
+  height:480px;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
